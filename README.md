@@ -1,2 +1,2 @@
 # fid
-###(It's short for *Fundamentals of Interactive Design*)
+### (It's short for *Fundamentals of Interactive Design*)
