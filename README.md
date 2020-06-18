@@ -1,5 +1,5 @@
 
-F.I.D. (It's short for *Fundamentals of Interactive Design*)<br>
+F.I.D. (It's short for *Fancy Intricate Designs*... not actually, it stands for ***Fundamentals of Interactive Design***, ha)<br>
 This GitHub Repository was created by **Jalen Wong**<br>
 I'll be posting projects I'm working on to be publicly viewed here as I make progress on them.<br>
 **<u>First achievement:</u>** creating this ReadMe in a separate branch, then merging that branch back to the master branch<br>
