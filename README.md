@@ -3,7 +3,7 @@ F.I.D. (It's short for *Fundamentals of Interactive Design*)<br>
 This GitHub Repository was created by **Jalen Wong**<br>
 I'll be posting projects I'm working on to be publicly viewed here as I make progress on them.<br>
 **<u>First achievement:</u>** creating this ReadMe in a separate branch, then merging that branch back to the master branch<br>
-**<u>Second achievement:</u>** successfully uploaded the **<u>[blackgoose website](https://jking0602.github.io/fid/blackgoosenew/)</u>**.
+**<u>Second achievement:</u>** successfully uploaded the **[blackgoose website](https://jking0602.github.io/fid/blackgoosenew/)**.
 - Go ahead.
 - Click it.
 - It works.
