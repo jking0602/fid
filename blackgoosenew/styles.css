@@ -16,19 +16,18 @@ h1 {
   font-family: serif;
   font-weight: normal;
   text-transform: uppercase;
-  border-bottom: 2px solid #d1633c;
+  border-bottom: 3px ridge #d1633c;
   margin-top; 30px;
 }
 h2 {
   color: #d1633c;
-  font-size: 2em;
   font-family: serif;
+  margin-bottom: 0px;
 }
 a.nav {
   font-family: Verdana;
   text-decoration: none;
   font-weight: bold;
-  font-style: italic;
 }
 a:link, a:visited {
   color: #fc7c47;
@@ -37,9 +36,9 @@ a:hover {
   color: #d1633c;
 }
 footer {
-  border-top: 1px solid #d1633c;
+  border-top: 3px ridge #d1633c;
   text-align: center;
-  padding-top: .1em;
+  margin-top: 0;
 }
 footer img {
   width: 40px;
@@ -50,4 +49,15 @@ footer img {
 small {
   color: #888888;
   font-size: 0.5em;
+}
+.mid {
+  padding-left: 10px;
+  padding-right: 10px;
+  border: ridge 4px #fc7c47;
+  margin-top: 10px;
+  margin-right: 50%;
+  background-image: url("tile4.png");
+}
+p {
+  margin-left: 3%;
 }
