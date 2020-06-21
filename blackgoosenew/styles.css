@@ -24,6 +24,9 @@ h2 {
   font-family: serif;
   margin-bottom: 0px;
 }
+button {
+  background-color: #EAEAEA;
+}
 a.nav {
   font-family: Verdana;
   text-decoration: none;
