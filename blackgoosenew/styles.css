@@ -25,7 +25,19 @@ h2 {
   margin-bottom: 0px;
 }
 button {
-  background-color: #EAEAEA;
+  background-color: #cdcdcd;
+  border-style: ridge;
+  border-color: #d1633c;
+  border-radius: 15px;
+}
+button:hover {
+  background-color: #FFCFA9;
+  border-style: ridge;
+  border-color: #d1633c;
+  border-radius: 15px;
+}
+div.nav {
+  text-align: center;
 }
 a.nav {
   font-family: Verdana;
@@ -33,9 +45,6 @@ a.nav {
   font-weight: bold;
 }
 a:link, a:visited {
-  color: #fc7c47;
-}
-a:hover {
   color: #d1633c;
 }
 footer {
@@ -54,8 +63,7 @@ small {
   font-size: 0.5em;
 }
 .mid {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 12px;
   border: ridge 4px #fc7c47;
   margin-top: 10px;
   margin-right: 50%;
