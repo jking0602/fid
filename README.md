@@ -3,7 +3,7 @@ F.I.D. (It's short for *Fancy Intricate Designs*... not actually, it stands for 
 This GitHub Repository was created by **Jalen Wong**<br>
 I'll be posting projects I'm working on to be publicly viewed here as I make progress on them.<br>
 **<u>First achievement:</u>** creating this ReadMe in a separate branch, then merging that branch back to the master branch<br>
-**<u>Second achievement:</u>** successfully uploaded the **[blackgoose website](https://jking0602.github.io/fid/blackgoosenew/)**.
+**<u>Second achievement:</u>** successfully uploaded the **[blackgoose website](https://jking0602.github.io/fid/blackgoose/)**.
 - Go ahead.
 - Click it.
 - It works.
