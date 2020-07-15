@@ -76,6 +76,11 @@ small {
   margin-left: 25%;
   background-image: url("tile4.png");
 }
+#mid {
+  padding: 6px;
+  border: ridge 2.5px #fc7c47;
+  border-radius: 15px 0px 15px 0px;
+}
 img {
   border: 5px ridge #d1633c;
 }
@@ -84,4 +89,10 @@ p {
 }
 ul, ol {
   list-style-type: none;
+}
+fieldset {
+  border: ridge 8px #dfdfdf;
+}
+legend {
+  border: ridge 6px #d0d0d0;
 }

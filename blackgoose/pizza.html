@@ -7,40 +7,53 @@
 </head>
 
 <body>
-
+<b>
 <h1>Blackstone Bistro | Pizza-on-Demand</h1>
 
 <p><big>Our 12" wood-fired pizzas are available for delivery. Build your custom pizza and we'll deliver it within an hour.</p>
 
 <form action="http://www.blackgoosebistro.com/pizza.php" method="POST">
-Your Information</big>
-
-<ul>
-  <li>
-    Name: <input type="text" name="customername">
-  </li>
-  <li>
-    Address: <input type="text" name="customeraddress">
-  </li>
-  <li>
-    Telephone Number: <input type="text" name="customerphone">
-  </li>
-  <li>
-    Email: <input type="text" name="customeremail">
-  </li>
-  <li>
-    Delivery instructions:<br>
-    <textarea name="instrucciones" rows="4" cols="60" maxlength="400" placeholder="'Non-contact delivery', for example"></textarea>
-  </li>
-</ul>
+<h2>Info Input</h2>
+<br>
+<table>
+ <tr>
+  <td>
+   Name: <br>
+   <input id="mid" type="text" name="customername">
+  </td>
+  <td>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </td>
+  <td>
+   Address: <br>
+   <input id="mid" type="text" name="address">
+  </td>
+ </tr>
+ <tr>
+  <td>
+   Telephone Number: <br>
+   <input id="mid" type="text" name="telephone">
+  </td>
+  <td>
+   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  </td>
+  <td>
+   Email: <br>
+   <input id="mid" type="text" name="email">
+  </td>
+ </tr>
+</table>
+<br>
+  Delivery Instructions:<br>
+  <textarea id="mid" name="instructions" rows="4" cols="60" maxlength="400" placeholder="'Non-contact delivery', for example"></textarea>
 
 
 <h2>Design your dream pizza:</h2>
+<br>
 
 <fieldset>
-<legend>Pizza specs
-
-</legend><fieldset>
+<legend>Pizza specs</legend>
+<fieldset>
 <legend>Crust <em>(Choose one)</em>:</legend>
   <ul>
   <li><label><input type="radio" name="crust" value="white">
