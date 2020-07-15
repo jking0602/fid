@@ -80,6 +80,59 @@ small {
   padding: 6px;
   border: ridge 2.5px #fc7c47;
   border-radius: 15px 0px 15px 0px;
+  font-weight: bold;
+}
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+}
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.container:hover input ~ .checkmark {
+  background-color: #d1633c;
+}
+.container input:checked ~ .checkmark {
+  background-color: #d1633c;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+.container .checkmark:after {
+ 	top: 4px;
+	left: 4px;
+	width: 10px;
+	height: 10px;
+	border-radius: 75%;
+	background: #f0f0f0;
+}
+#bot {
+  color: #d1633c;
+  font-weight: bold;
+  text-shadow: 1px 1px #000000;
+  padding: 6px;
+  border: ridge 4px #d1633c;
+  border-radius: 10px 10px 10px 10px;
 }
 img {
   border: 5px ridge #d1633c;
@@ -91,8 +144,13 @@ ul, ol {
   list-style-type: none;
 }
 fieldset {
-  border: ridge 8px #dfdfdf;
+  background-image: url("tile4.png");
+  border: ridge 6px #dfdfdf;
+  border-radius: 20px 0px 20px 0px;
 }
 legend {
-  border: ridge 6px #d0d0d0;
+  background-color: #ffffff;
+  padding: 5px;
+  border: ridge 8px #d9d9d9;
+  border-radius: 0px 15px 0px 15px;
 }
