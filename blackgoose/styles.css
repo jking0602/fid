@@ -23,6 +23,7 @@ h2 {
   color: #d1633c;
   font-family: serif;
   margin-bottom: 0px;
+  text-shadow: 2px 2px #000000;
 }
 button {
   background-color: #cdcdcd;
@@ -47,6 +48,9 @@ a.nav {
 a:link, a:visited {
   color: #d1633c;
 }
+a:hover {
+  color: #0099cc;
+}
 footer {
   border-top: 3px ridge #d1633c;
   text-align: center;
@@ -57,6 +61,7 @@ footer img {
   height: 40px;
   margin-left: .5em;
   margin-right: .5em;
+  border: none;
 }
 small {
   color: #888888;
@@ -65,10 +70,18 @@ small {
 .mid {
   padding: 12px;
   border: ridge 4px #fc7c47;
+  border-radius: 15px 0px 15px 0px;
   margin-top: 10px;
-  margin-right: 50%;
+  margin-right: 25%;
+  margin-left: 25%;
   background-image: url("tile4.png");
+}
+img {
+  border: 5px ridge #d1633c;
 }
 p {
   margin-left: 3%;
+}
+ul, ol {
+  list-style-type: none;
 }
