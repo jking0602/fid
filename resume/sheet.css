@@ -30,3 +30,6 @@ ul {
  hr {
    border: ridge 2px #d19346;
  }
+a {
+  text-decoration: none;
+}
