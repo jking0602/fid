@@ -33,3 +33,9 @@ ul {
 a {
   text-decoration: none;
 }
+a:hover {
+  color: #0099bb;
+}
+a:visited, a:link {
+  color: #cc0044;
+}
