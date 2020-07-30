@@ -41,3 +41,6 @@ a:hover {
 a:visited, a:link {
   color: #cc0044;
 }
+img.nonfoot {
+  border: ridge #d19346 3px;
+}
