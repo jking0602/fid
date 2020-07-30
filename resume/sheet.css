@@ -39,3 +39,7 @@ a:hover {
 a:visited, a:link {
   color: #cc0044;
 }
+
+img {
+  border: ridge #d19346 5px;
+}
